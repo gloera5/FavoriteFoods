@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ .jumbotron{
+ background-image: url("Food Mosaic 2.jpg");
+ }
