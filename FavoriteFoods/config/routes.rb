@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'users/index'
+
+  get 'users/show'
+
+  get 'users/new'
+
+  get 'users/edit'
+
   devise_for :users
   get 'login/index'
   root to: 'login#index'

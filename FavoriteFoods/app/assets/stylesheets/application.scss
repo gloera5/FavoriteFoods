@@ -16,5 +16,11 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  .jumbotron{
- background-image: url("Food Mosaic 2.jpg");
+  background-image: url("Food Mosaic 2.jpg");
+  height: 1458px; 
  }
+ .container{
+  border-top-width: 150px;
+  padding-top: 140px;
+ }
+ 
