@@ -1,1 +1,20 @@
+<div class="jumbotron">
+<div class="container">
+  <br>
+  <h2>Favorite Foods</h2>
+  <ul>
+    <%= render current_user.foods %>
+  </ul>
+  <p>Input your top five favorite foods</p>
+  <%= form_for @food do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+  </div>
+    <div class="input-group">
+      <%= f.text_field :name %> 
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <% end %>
 
+  </div>
+</div>

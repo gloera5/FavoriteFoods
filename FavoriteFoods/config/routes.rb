@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :foods
+  
   get '/profile' =>  'users#show'
   
-  resources :users, only: [:update]
-
-
-  devise_for :users
   get 'login/index'
+  
   root to: 'login#index'
 end
   # The priority is based upon order of creation: first created -> highest priority.
