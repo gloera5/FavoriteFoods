@@ -1,0 +1,8 @@
+
+diff --git a/git_checkpoint/banana.txt b/git_checkpoint/banana.txt
+index e69de29..7f2a0f3 100644
+--- a/git_checkpoint/banana.txt
++++ b/git_checkpoint/banana.txt
+@@ -0,0 +1 @@
++"Git Checkpoint Assignment."
+\ No newline at end of file
